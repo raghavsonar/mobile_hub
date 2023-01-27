@@ -1,0 +1,139 @@
+.head{
+    font-size:70px; 
+    font-weight:bold; 
+    color:rgb(255, 255, 255);
+    font-family: HP Simplified Jpan
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    }
+    .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    }
+    .image2 {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+
+    }
+    .image3 {
+    position: absolute;
+    top: 500px;
+    left: 330px;
+
+    }
+    .image4 {
+    position: absolute;
+    top: 500px;
+    left: 630px;
+
+    }
+    .image5 {
+    position: absolute;
+    top: 500px;
+    left: 930px;
+
+    }
+
+    .bgg {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    }
+    .pop {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    }
+    .pop1 {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    font-size:30px; 
+    font-weight:bold; 
+    color:rgb(0, 0, 0);
+    font-family: HP Simplified
+
+    }
+    .pop2 {
+    position: absolute;
+    top: 625px;
+    left: 200px;
+    
+    }
+
+    .pop3 {
+    position: absolute;
+    top: 530px;
+    left: 150px;
+    font-size: 40px;
+    font-weight:bold; 
+    color:rgb(0, 0, 0);
+    font-family: HP Simplified
+    
+    }
+
+
+
+    .bgg2{
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        font-family: HP Simplified
+    }
+
+    .s1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    }
+    .s2 {
+    position: absolute;
+    top: 2850px;
+    left: 630px;
+    }
+    .s3 {
+    position: absolute;
+    top: 3150px;
+    left: 630px;
+    }
+
+    .grow video{
+    transition: 0.5s ease;
+    }
+
+    .grow video:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    }
+
+    .grow1 img{
+    transition: 0.5s ease;
+    }
+
+    .grow1 img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+    }
+
+    .shrink img {
+    transition: 0.5s ease;
+    }
+
+    .shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 0.5s ease;
+    }
